@@ -659,7 +659,8 @@ footer{
         margin-top: 380px;
         display: flex; 
         width: 537px;
-        margin-left: 35px;   
+        margin-left: 35px; 
+        max-width: 100%;
     }
     .circle{
         width: 31px;
@@ -677,6 +678,8 @@ footer{
         margin-top: -50px;
         width: 100%;
         margin: 0 auto;
+        max-width: 100%;
+        display: flex;
     }
     .site-card{
         margin-top: 0px;
@@ -699,9 +702,6 @@ footer{
     }
     .left1{
         margin-left: 15px;
-    }
-    .site-cards{
-        display: flex;
     }
     footer{
         width: 688px;
